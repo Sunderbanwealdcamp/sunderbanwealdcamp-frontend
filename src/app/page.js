@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Footer from './common/footer'
+import Header from './common/header'
+import Home from './home/page'
 
-export default function Home() {
+export default function Main() {
   return (
-    <main className={styles.main}>
-      <h1>sunderbanwealdcamp-frontend </h1>
-    </main>
+      <Home/>
   )
 }
