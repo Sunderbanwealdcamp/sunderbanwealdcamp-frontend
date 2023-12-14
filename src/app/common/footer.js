@@ -7,7 +7,7 @@ export default function Footer() {
                 </div>
                 <div className="footerM">
                     <h4>Location</h4>
-                    <p>Dulki (Gosaba), South 24 Parganas, West Bengal, Pin: 743370</p>
+                    <p>Bali 9, Bali Hatkhola, Gosaba, South 24 Pgs, West Bengal 743370, India.</p>
                 </div>
                 <div className="footerR">
                     <h4>Contact</h4>

@@ -11,7 +11,7 @@ export default function Header() {
             <div className="wrapper">
                 <div className="hcolL">
                     <span className="material-symbols-outlined">home</span>
-                    <p>Dulki (Gosaba), South 24 Parganas, West Bengal, Pin: 743370</p>
+                    <p>Bali 9, Bali Hatkhola, Gosaba, South 24 Pgs, West Bengal 743370, India.</p>
                 </div>
                 <div className="hcolM">
                     <a href="/">
