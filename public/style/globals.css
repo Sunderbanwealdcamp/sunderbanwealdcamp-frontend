@@ -38,8 +38,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+img{max-width: 100%;}
+
 .showMob{display: none;}
-p{line-height: 18px;}
+p{line-height: 18px; margin-bottom: 16px;}
 
 h1, h2, h3, h4, h5{
   font-family: 'Sofadi One', sans-serif;
@@ -61,8 +64,9 @@ h5{font-size: 16px;}
 .header .wrapper{display: flex;  align-items: center; justify-content: space-between;}
 .header .hcolL{display: flex; align-items: center; width: 25%;}
 .header .hcolL span{border: 1px solid var(--mGreen); font-variation-settings: 'FILL' 1; color: var(--mGreen); border-radius: 50%; padding: 4px; margin-right: 16px;}
+.header .hcolL p{margin: 0;}
 .header .hcolR{display: flex; align-items: center; width: 25%;}
-.header .hcolR button{ margin-left: 16px;}
+.header .hcolR .btn-sm{ margin-left: 16px;}
 .header .hcolR h3{white-space: nowrap;}
 .header .hMenu{ background: var(--dGreen); color: var(--White); padding: 0px 32px; justify-content: center;  display: flex; align-items: center;}
 .header .hMenu a{padding: 16px; margin: 0 8px; display: inline-flex; cursor: pointer;}
@@ -94,6 +98,31 @@ h5{font-size: 16px;}
 .Footer .footerM{width: 20%;}
 .Footer .footerR{width: 25%;}
 
+.about-page h1{ margin: 32px 0 16px;}
+.cRow{display: flex; flex-wrap: wrap;}
+.cRow .col-4{width: 40%; padding: 0 8px;}
+.cRow .col-8{width: 60%; padding: 0 8px;}
+
+.acc-page h1{ margin: 32px 0 16px;}
+.roomWrap{ display: flex; flex-wrap: wrap;}
+.roomdec{display: flex; flex-wrap: wrap; margin: 0 0 16px; width: 50%; padding: 8px;}
+.roomdec .rdLeft{width: 30%; border: 8px solid #fff; box-shadow: 0 0 3px 3px #D9D9D9;}
+.roomdec .rdLeft img{width: 100%;  height: 100%; object-fit: cover;}
+.roomdec .rdRight{width: 70%; padding: 0 16px;}
+.roomdec .rdRight h3{margin-bottom: 8px;}
+
+.gallery-page h1{ margin: 32px 0 16px;}
+.galleryWrap{display: flex; flex-wrap: wrap; margin: 32px 0; list-style: none;}
+.galleryWrap li{width: calc(25% - 16px); margin: 8px; padding: 8px; box-shadow: 0 0 3px 3px #D9D9D9;}
+.galleryWrap li img{width: 100%; height: 100%; object-fit: cover;}
+
+.contact-page h1{ margin: 32px 0 16px;}
+.contactWrap form{width: 40%; margin: 16px auto 32px;}
+.contactWrap .fRow{margin-bottom: 16px;}
+.contactWrap .fRow input, .contactWrap .fRow textarea{display: block; border-radius: 4PX; outline: none; padding: 0 8px; margin: 8px 0 0 0; width: 100%; height: 32px; border: 1px solid #ccc;}
+.contactWrap .fRow textarea{height: auto; padding: 8px; min-height: 100px;}
+.text-right{text-align: right;}
+
 
 @media (max-width: 1200px){
   .header .hcolL{width: 32%;}
@@ -101,6 +130,7 @@ h5{font-size: 16px;}
 }
 
 @media (max-width: 990px){
+  
   .wrapper{padding: 16px;}
   .header .hcolR{flex-wrap: wrap; justify-content: center;}
   .header .hcolR button{margin: 16px auto; }
@@ -108,6 +138,14 @@ h5{font-size: 16px;}
   .welcome-sec .wRight {width: 90%;}
   .welcome-sec p {width: 100%;}
   .Footer .footerR {width: 43%;}
+
+  .contactWrap form{width: 80%;}
+
+  .cRow .col-4, .cRow .col-8{width: 100%;}
+  .about-page  .cRow .col-4{margin-bottom: 16px; text-align: center;}
+  .galleryWrap li{width: calc(33.33% - 16px)};
+
+ 
 }
 
 @media (max-width: 767px){
@@ -120,7 +158,8 @@ h5{font-size: 16px;}
   .header .hMenu.showmenu{max-height: 300px;}
   .header .hMenu a{display: block; width: 100%;  border-bottom: 1px solid #036132;}
   .header .hMenu a:last-child{border: none;}
-
+  .header .wrapper{border-bottom: 1px solid #ccc;}
+  
   .hBanner img{height: 200px;}
   .welcome-sec .wrapper{padding: 16px; flex-direction: column-reverse;}
   .welcome-sec .wRight {width: 100%;}
@@ -132,5 +171,10 @@ h5{font-size: 16px;}
   .Footer .wrapper { flex-wrap: wrap; flex-direction: column; align-items: center;}
   .Footer .footerM {width: 100%;}
   .Footer .footerR{width: 100%;}
+  .contactWrap form{width: 100%;}
+  .header .hcolR h3{margin-bottom: 8px;}
   h1 {font-size: 24px;}
+  .galleryWrap{margin: 0 -8px;}
+  .galleryWrap li{width: calc(50% - 16px)};
+  
 }

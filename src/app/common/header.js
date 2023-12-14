@@ -19,9 +19,9 @@ export default function Header() {
                     </a>
                 </div>
                 <div className="hcolR">
-                    <h3>+(91) 9433266475</h3>
-                    <button className="btn-sm">Bok Now</button>
-                    <span class="material-symbols-outlined showMob" onClick={()=>ToggleMenu()} >menu</span>
+                    <h3>+(91) 9007627990</h3>
+                    <a href="/contact" className="btn-sm">Bok Now</a>
+                    <span className="material-symbols-outlined showMob" onClick={()=>ToggleMenu()} >menu</span>
                 </div>
             </div>
             <menu className={`hMenu ${showMenu?'':'showmenu'}`}>

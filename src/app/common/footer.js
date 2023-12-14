@@ -11,8 +11,8 @@ export default function Footer() {
                 </div>
                 <div className="footerR">
                     <h4>Contact</h4>
-                    <p><span className="material-symbols-outlined">mail</span> 856985625royhomestay@gmail.com</p>
-                    <p><span className="material-symbols-outlined">call</span> 856985625royhomestay@gmail.com</p>
+                    <p><span className="material-symbols-outlined">mail</span> sunderbanwealdcamp@gmail.com</p>
+                    <p><span className="material-symbols-outlined">call</span> 9007627990</p>
                 </div>
             </div>
         </div>
