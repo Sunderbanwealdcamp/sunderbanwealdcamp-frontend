@@ -3,7 +3,7 @@ export default function Footer() {
         <div className="Footer">
             <div className="wrapper">
                 <div className="footerL">
-                    <img src="./img/logo-footer.png" alt="" />
+                    <img src="./img/logo.png" className="logo" alt="" />
                 </div>
                 <div className="footerM">
                     <h4>Location</h4>

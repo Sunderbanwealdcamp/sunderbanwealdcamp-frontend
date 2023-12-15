@@ -60,6 +60,7 @@ h5{font-size: 16px;}
 .btn-sm:hover{background: var(--mGreen);}
 .wrapper{max-width: 1400px; width: 100%; margin: 0 auto; padding: 16px 32px;}
 
+
 .header{position: relative;}
 .header .wrapper{display: flex;  align-items: center; justify-content: space-between;}
 .header .hcolL{display: flex; align-items: center; width: 25%;}
@@ -71,6 +72,7 @@ h5{font-size: 16px;}
 .header .hMenu{ background: var(--dGreen); color: var(--White); padding: 0px 32px; justify-content: center;  display: flex; align-items: center;}
 .header .hMenu a{padding: 16px; margin: 0 8px; display: inline-flex; cursor: pointer;}
 .header .hMenu a:hover{color: var(--lGreen);}
+.header .logo{height: 100px; width: auto;}
 
 .hBanner .wrapper, .map-sec .wrapper{padding: 0;}
 .hBanner .wrapper, .map-sec img{width: 100%;}
@@ -91,12 +93,13 @@ h5{font-size: 16px;}
 .room-sec .roomList li span{font-size: 16px; font-weight: 600; display: block; margin: 16px 0 0;}
 
 .Footer{background: var(--dGreen); color: var(--White); }
-.Footer .wrapper{display: flex; justify-content: space-between;}
-.Footer h4{margin: 16px 0 ;}
+.Footer .wrapper{display: flex; justify-content: space-between; align-items: center;}
+.Footer h4{margin: 0px 0 ;}
 .Footer p{display: flex; margin-bottom: 8px;}
 .Footer p span{display: inline-block; margin-right: 8px;}
 .Footer .footerM{width: 20%;}
 .Footer .footerR{width: 25%;}
+.Footer .logo{height: 60px;}
 
 .about-page h1{ margin: 32px 0 16px;}
 .cRow{display: flex; flex-wrap: wrap;}
@@ -149,6 +152,8 @@ h5{font-size: 16px;}
 }
 
 @media (max-width: 767px){
+  .btn-sm {padding: 8px 24px;}
+  h3 {font-size: 18px;}
   .showMob{display: inline-block; font-variation-settings: 'wght' 400; font-size:33px; margin-left: 10px;}
   .header .hcolL, .header .hcolR button{display: none;}
   .header .hcolM img{height: 60px; width: auto;}
@@ -174,7 +179,13 @@ h5{font-size: 16px;}
   .contactWrap form{width: 100%;}
   .header .hcolR h3{margin-bottom: 8px;}
   h1 {font-size: 24px;}
+
+  .roomdec{flex-direction: column; width: 100%;}
+  .roomdec .rdLeft{width: 100%;}
+  .roomdec .rdRight{width: 100%; padding: 16px 0 0;}
+
   .galleryWrap{margin: 0 -8px;}
   .galleryWrap li{width: calc(50% - 16px)};
-  
+
+
 }

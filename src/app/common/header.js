@@ -15,7 +15,7 @@ export default function Header() {
                 </div>
                 <div className="hcolM">
                     <a href="/">
-                        <img src="img/logo-header.png" alt="" />
+                        <img src="img/logo.png" className="logo" alt="" />
                     </a>
                 </div>
                 <div className="hcolR">
