@@ -80,9 +80,9 @@ h5{font-size: 16px;}
 .welcome-sec .wLeft{margin-right: 32px; width: 40%;}
 .welcome-sec .wLeft img{max-width: 100%; max-height: 350px;}
 .welcome-sec .wRight{width: 60%;}
-.welcome-sec h1{margin: 32px 0 16px;}
+.welcome-sec h1{margin: 32px 0 32px; line-height: 32px;}
 .welcome-sec h1 span{font-family: 'Lato', sans-serif; font-size: 14px; display: block;}
-.welcome-sec p{width: 80%; margin-bottom: 32px;}
+.welcome-sec p{width: 80%; margin-bottom: 18px;}
 
 
 .room-sec {text-align: center;}
