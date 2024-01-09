@@ -21,7 +21,7 @@ export default function Header() {
                 <div className="hcolR">
                     <h3>
                         +(91) 9007627990 
-                        <span>+(91) 9007627834</span>
+                        <span>+(91) 9903355699</span>
                     </h3>
                     <a href="/contact" className="btn-sm">Bok Now</a>
                     <span className="material-symbols-outlined showMob" onClick={()=>ToggleMenu()} >menu</span>
