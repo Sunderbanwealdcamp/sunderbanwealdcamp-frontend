@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className="footerR">
                     <h4>Contact</h4>
                     <p><span className="material-symbols-outlined">mail</span> sunderbanwealdcamp@gmail.com</p>
-                    <p><span className="material-symbols-outlined">call</span> 9007627990  &nbsp;| +(91) 9903355699</p>
+                    <p><span className="material-symbols-outlined">call</span> 9007627990  &nbsp;| 9903355699</p>
                 </div>
             </div>
         </div>
