@@ -69,6 +69,7 @@ h5{font-size: 16px;}
 .header .hcolR{display: flex; align-items: center; width: 25%;}
 .header .hcolR .btn-sm{ margin-left: 16px;}
 .header .hcolR h3{white-space: nowrap;}
+.header .hcolR h3 span{display: block; margin-top: 4px;}
 .header .hMenu{ background: var(--dGreen); color: var(--White); padding: 0px 32px; justify-content: center;  display: flex; align-items: center;}
 .header .hMenu a{padding: 16px; margin: 0 8px; display: inline-flex; cursor: pointer;}
 .header .hMenu a:hover{color: var(--lGreen);}
@@ -160,7 +161,7 @@ h5{font-size: 16px;}
   .header .hcolR {width: 60%;}
   .header .hMenu{position: absolute; max-height: 0px; overflow: hidden; top: 100%; left: 0; width: 100%; flex-direction: column;
     -webkit-transition: all 0.3s linear; -moz-transition: all 0.3s linear; -ms-transition: all 0.3s linear; -o-transition: all 0.3s linear; transition: all 0.3s linear;}
-  .header .hMenu.showmenu{max-height: 300px;}
+  .header .hMenu.showmenu{max-height: 500px;}
   .header .hMenu a{display: block; width: 100%;  border-bottom: 1px solid #036132;}
   .header .hMenu a:last-child{border: none;}
   .header .wrapper{border-bottom: 1px solid #ccc;}
@@ -177,7 +178,9 @@ h5{font-size: 16px;}
   .Footer .footerM {width: 100%;}
   .Footer .footerR{width: 100%;}
   .contactWrap form{width: 100%;}
-  .header .hcolR h3{margin-bottom: 8px;}
+  .header .hcolR {justify-content: flex-end;}
+  .header .hcolR h3{margin-bottom: 8px; font-size: 14px;}
+  .header .hcolR h3 span{display: inline-block; margin: 0 0 0 8px;}
   h1 {font-size: 24px;}
 
   .roomdec{flex-direction: column; width: 100%;}

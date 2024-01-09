@@ -19,7 +19,10 @@ export default function Header() {
                     </a>
                 </div>
                 <div className="hcolR">
-                    <h3>+(91) 9007627990</h3>
+                    <h3>
+                        +(91) 9007627990 
+                        <span>+(91) 9007627834</span>
+                    </h3>
                     <a href="/contact" className="btn-sm">Bok Now</a>
                     <span className="material-symbols-outlined showMob" onClick={()=>ToggleMenu()} >menu</span>
                 </div>
