@@ -26,10 +26,14 @@ export default function Header() {
             </div>
             <menu className={`hMenu ${showMenu?'':'showmenu'}`}>
                 <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/accommodation ">Accommodation </a>
+                <a href="/about">About Us</a>
+                <a href="/aboutsunderban">About Sunderban</a>
+                {/* <a href="/accommodation ">Accommodation </a> */}
+                <a href="/tourpackage ">Tour Package </a>
+                <a href="/ouractivities">Our Activities</a>
                 <a href="/gallery">Gallery</a>
                 <a href="/contact">Contact</a>
+                <a href="/faq">FAQ</a>
             </menu>
         </div>
     )
