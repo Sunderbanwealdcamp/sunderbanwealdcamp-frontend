@@ -1,4 +1,4 @@
-export default function Ouractivities() {
+export default function Aboutsunderban() {
     return (
       <div className="acc-page">
         <div className="wrapper">
@@ -6,11 +6,21 @@ export default function Ouractivities() {
           <div><h3>Sunderban at a Glance</h3>
             <div>
                <p>
-               Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. The southern part of the Gangetic delta between the river Hooghly on the West in West Bengal and the river Meghna on the East in Bangladesh is covered by a huge mangrove forest which is known as Sundarban. The area of Sundarban in India and Bangladesh is 9630 sq.km. out of which 4264 sq.km. is in India. Sundarban is bound by 21° - 40'04" and 22° - 09'21" North latitudes and 88° -01'56" and 89° -06'01"East longitudes. In Indian part 2585 sq. km. lying between the Matla river in the West and the Haribhanga, river in the east, bordering Bangladesh, falls under Sundarban Tiger Reserve. Within this Reserve an area of 1330 sq. km. has been declared as core area.
+               Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. 
+               The southern part of the Gangetic delta between the river Hooghly on the West in West Bengal and the river Meghna on the East in Bangladesh is covered by a huge mangrove forest which is known as Sundarban. The area of Sundarban in India and Bangladesh is 9630 sq.km. out of which 4264 sq.km. is in India.
+                {/* Sundarban is bound by 
+               21&deg - 40'04" and 22&deg - 09'21" North latitudes and 88v -01'56"
+                and 89&deg -06'01"East longitudes. In Indian part 2585 sq. km.  */}
+                lying between the Matla river in the West and the Haribhanga, 
+                river in the east, bordering Bangladesh, falls under Sundarban Tiger Reserve. 
+                Within this Reserve an area of 1330 sq. km. has been declared as core area.
                </p>
             </div>
             <div>
-                <p>The SUNDERBAN NATIONAL PARK is a Tiger Reserve , Biosphere Reserve, and UNESCO 'World Heritage Site' with 4268 sq.km of Mangrove Forest, is the home of Royal Bengal Tiger, the most majestic animal of the world. The eco-system and bio-diversity of the Sunderbans have made it enlivened memorably.
+                <p>The SUNDERBAN NATIONAL PARK is a Tiger Reserve , 
+                  Biosphere Reserve, and UNESCO <q>World Heritage Site</q> with 4268 sq.km of Mangrove Forest,
+                   is the home of Royal Bengal Tiger, the most majestic animal of the world. 
+                   The eco-system and bio-diversity of the Sunderbans have made it enlivened memorably.
                 </p>
             </div>
             <div>
