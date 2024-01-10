@@ -14,7 +14,7 @@ export default function Home() {
             </div>
             <div className="wRight">
               <h1><span>Welcome to</span>Sunderban Weald Camp </h1>
-              <p>The infrastructure over have has been developed with the aim to support the local people subsistence. </p>
+              <p>The infrastructure over here has been developed with the aim to support the local people subsistence. </p>
               <p>Sunderban Weald Camp - an Ecotourism project which is located at the last forest village known as Bali.</p>
               <p>We offered tourists the unique opportunity to stay in a environment while enjoying all the luxuries of civilized life</p>
               <a href="/about" className="btn-sm">Read More</a>

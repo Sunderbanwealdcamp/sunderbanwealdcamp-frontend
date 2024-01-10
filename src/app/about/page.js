@@ -10,7 +10,7 @@ export default function About() {
           <div className="col-8">
             <p><strong>Sunderban Weald Camp</strong> </p>
 
-            <p>The infrastructure over have has been developed with the aim to support the local people subsistence. Sunderban Weald Camp - an Ecotourism project which is located at the last forest village known as Bali.</p>
+            <p>The infrastructure over here has been developed with the aim to support the local people subsistence. Sunderban Weald Camp - an Ecotourism project which is located at the last forest village known as Bali.</p>
 
             <p>We offered tourists the unique opportunity to stay in a environment while enjoying all the luxuries of civilized life<br/>We have exclusive ethnic cottages with modern attach bath cum toilet facilities, Own running water facility and sweet water source. The kitchen has an adequate variety in its menu and the dining cum lounge is open to the fish pond and garden.</p>
 
