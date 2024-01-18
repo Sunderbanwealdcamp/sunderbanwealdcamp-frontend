@@ -46,8 +46,8 @@ export default function Home() {
           </div>
         </section>
         <section className="map-sec">
-          <div className="wrapper">
-            <img src="img/map.jpg" alt="" />
+          <div className="wrapper"><a href="https://maps.app.goo.gl/5x4nCFMMFik3zxa47" target="_blank">
+            <img src="img/sundarban-map.png" alt="" /></a>
           </div>
         </section>
     </div>

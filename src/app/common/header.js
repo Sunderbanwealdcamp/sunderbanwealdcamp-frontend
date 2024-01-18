@@ -23,7 +23,7 @@ export default function Header() {
                         9007627990 
                         <span>9903355699</span>
                     </h3>
-                    <a href="/contact" className="btn-sm">Bok Now</a>
+                    <a href="/contact" className="btn-sm">Book Now</a>
                     <span className="material-symbols-outlined showMob" onClick={()=>ToggleMenu()} >menu</span>
                 </div>
             </div>
