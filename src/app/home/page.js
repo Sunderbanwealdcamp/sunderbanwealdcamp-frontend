@@ -1,3 +1,7 @@
+'use client'
+import React, { useState } from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 export default function Home() {
   return (
@@ -10,7 +14,12 @@ export default function Home() {
         <section className="welcome-sec">
           <div className="wrapper">
             <div className="wLeft">
-              <img src="img/wBanner.jpg" alt="Welcome Banner" />
+            <Carousel>
+                    <img src="img/wBanner.jpg" alt="Welcome Banner" />
+                    <img src="img/g2.jpg" alt="Welcome Banner" />
+                    <img src="img/g9.jpg" alt="Welcome Banner" />
+            </Carousel>
+              {/* <img src="img/wBanner.jpg" alt="Welcome Banner" /> */}
             </div>
             <div className="wRight">
               <h1><span>Welcome to</span>Sunderban Weald Camp </h1>
@@ -22,6 +31,28 @@ export default function Home() {
           </div>
         </section>
         <section className="room-sec">
+        <div className="wrapper">
+          <h2>Our Activities</h2>
+          <p>Sundarbans is renowned for its biodiversity. Royal Bengal Tigers, spotted deer, saltwater crocodiles, and various species of birds. A guided safari through the dense mangroves gives you a chance to spot these fascinating creatures in their natural habitat.</p>
+          <ul className="roomList">
+            <li><a href="/ouractivities">
+              <img src="img/activity1.jpg" alt="Rooms" />
+              <span>Wildlife Viewing</span></a>
+            </li>
+            <li><a href="/ouractivities">
+              <img src="img/activity2.jpg" alt="Rooms" />
+              <span>Boat safari</span></a>
+            </li>
+            <li><a href="/ouractivities">
+              <img src="img/activity3.jpg" alt="Rooms" />
+              <span>Nouka journey & Jungle Walk</span></a>
+            </li>
+            <li><a href="/ouractivities">
+              <img src="img/g12.jpg" alt="Rooms" />
+              <span>Mithology Drama (Banabibi Pala)</span></a>
+            </li>
+          </ul>
+          </div>
         <div className="wrapper">
           <h2>Our cottages & Rooms</h2>
           <p>We have exclusive ethnic cottages with modern attach bath cum toilet facilities</p>
