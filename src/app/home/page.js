@@ -48,7 +48,7 @@ export default function Home() {
               <span>Nouka journey & Jungle Walk</span></a>
             </li>
             <li><a href="/ouractivities">
-              <img src="img/g12.jpg" alt="Rooms" />
+              <img src="img/banabibit.jpg" alt="Rooms" />
               <span>Mithology Drama (Banabibi Pala)</span></a>
             </li>
           </ul>
