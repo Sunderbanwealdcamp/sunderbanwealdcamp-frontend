@@ -14,10 +14,11 @@ export default function Home() {
         <section className="welcome-sec">
           <div className="wrapper">
             <div className="wLeft">
-            <Carousel>
+            <Carousel autoPlay infiniteLoop>
                     <img src="img/wBanner.jpg" alt="Welcome Banner" />
                     <img src="img/g2.jpg" alt="Welcome Banner" />
                     <img src="img/g9.jpg" alt="Welcome Banner" />
+                    {/* <img src="img/g9.jpg" alt="Welcome Banner" /> */}
             </Carousel>
               {/* <img src="img/wBanner.jpg" alt="Welcome Banner" /> */}
             </div>
