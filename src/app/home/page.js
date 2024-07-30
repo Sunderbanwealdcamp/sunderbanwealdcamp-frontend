@@ -58,21 +58,21 @@ export default function Home() {
           <h2>Our cottages & Rooms</h2>
           <p>We have exclusive ethnic cottages with modern attach bath cum toilet facilities</p>
           <ul className="roomList">
-            <li>
+            <li><a href="/gallery">
               <img src="img/r1.jpg" alt="Rooms" />
-              <span>Family  Room</span>
+              <span>Family  Room</span></a>
             </li>
-            <li>
+            <li><a href="/gallery">
               <img src="img/r2.jpg" alt="Rooms" />
-              <span>The Balcony</span>
+              <span>The Balcony</span></a>
             </li>
-            <li>
+            <li><a href="/gallery">
               <img src="img/r3.jpg" alt="Rooms" />
-              <span>Delux Room</span>
+              <span>Delux Room</span></a>
             </li>
-            <li>
+            <li><a href="/gallery">
               <img src="img/r4.jpg" alt="Rooms" />
-              <span>Dining Room</span>
+              <span>Dining Room</span></a>
             </li>
           </ul>
           </div>
