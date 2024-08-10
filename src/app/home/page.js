@@ -15,10 +15,16 @@ export default function Home() {
           <div className="wrapper">
             <div className="wLeft">
             <Carousel autoPlay infiniteLoop>
-                    <img src="img/wBanner.jpg" alt="Welcome Banner" />
-                    <img src="img/g2.jpg" alt="Welcome Banner" />
-                    <img src="img/g9.jpg" alt="Welcome Banner" />
-                    {/* <img src="img/g9.jpg" alt="Welcome Banner" /> */}
+              <img src="img/ca/c1.jpg" alt="Welcome Banner" />
+              <img src="img/ca/c2.jpg" alt="Welcome Banner" />
+              <img src="img/ca/c3.jpg" alt="Welcome Banner" />
+              <img src="img/ca/c4.jpg" alt="Welcome Banner" />
+              <img src="img/ca/c5.jpg" alt="Welcome Banner" />
+              <img src="img/ca/c6.jpg" alt="Welcome Banner" />
+              <img src="img/wBanner.jpg" alt="Welcome Banner" />
+              <img src="img/g2.jpg" alt="Welcome Banner" />
+              <img src="img/g9.jpg" alt="Welcome Banner" />
+              {/* <img src="img/g9.jpg" alt="Welcome Banner" /> */}
             </Carousel>
               {/* <img src="img/wBanner.jpg" alt="Welcome Banner" /> */}
             </div>
