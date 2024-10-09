@@ -28,9 +28,15 @@ export default function Contact() {
 
   return (
     <div className="contact-page">
+      
       <div className="wrapper">
         <h1>Contact Us</h1>
         <div className="contactWrap">
+          <div style={{"text-align": "center"}}>
+            <video width="520" height="440" controls autoplay>
+              <source src="video/map.mp4" type="video/mp4"/>
+            </video>
+          </div>
           <form onSubmit={handleSubmit}>
             <div className="fRow">
               <label>
@@ -67,6 +73,9 @@ export default function Contact() {
             <div className='text-right'><button className='btn-sm' type="submit">Submit</button></div>
           </form>
         </div>
+      </div>
+      <div>
+        
       </div>
     </div>
   )
