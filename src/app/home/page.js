@@ -24,6 +24,9 @@ export default function Home() {
               <img src="img/wBanner.jpg" alt="Welcome Banner" />
               <img src="img/g2.jpg" alt="Welcome Banner" />
               <img src="img/g9.jpg" alt="Welcome Banner" />
+              <img src="img/ca/ca-1.jpg" alt="Welcome Banner" />
+              <img src="img/ca/ca-2.jpg" alt="Welcome Banner" />
+              <img src="img/ca/ca-3.jpg" alt="Welcome Banner" />
               {/* <img src="img/g9.jpg" alt="Welcome Banner" /> */}
             </Carousel>
               {/* <img src="img/wBanner.jpg" alt="Welcome Banner" /> */}
