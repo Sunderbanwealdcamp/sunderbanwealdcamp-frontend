@@ -17,7 +17,7 @@ export default function Home() {
             <Carousel autoPlay infiniteLoop>
               <img src="img/ca/c1.jpg" alt="Welcome Banner" />
               <img src="img/ca/c2.jpg" alt="Welcome Banner" />
-              <img src="img/ca/c3.jpg" alt="Welcome Banner" />
+              <img src="img/ca/cnew.png" alt="Welcome Banner" />
               <img src="img/ca/c4.jpg" alt="Welcome Banner" />
               <img src="img/ca/c5.jpg" alt="Welcome Banner" />
               <img src="img/ca/c6.jpg" alt="Welcome Banner" />
@@ -33,8 +33,7 @@ export default function Home() {
             </div>
             <div className="wRight">
               <h1><span>Welcome to</span>Sunderban Weald Camp </h1>
-              <p>The infrastructure over here has been developed with the aim to support the local people subsistence. </p>
-              <p>Sunderban Weald Camp - an Ecotourism project which is located at the last forest village known as Bali.</p>
+              <p>Sunderban Weald Camp - A sustainable eco-tourism project which is located at the last forest village known as Bali.</p>
               <p>We offered tourists the unique opportunity to stay in a environment while enjoying all the luxuries of civilized life</p>
               <a href="/about" className="btn-sm">Read More</a>
             </div>
@@ -46,11 +45,11 @@ export default function Home() {
           <p>Sundarbans is renowned for its biodiversity. Royal Bengal Tigers, spotted deer, saltwater crocodiles, and various species of birds. A guided safari through the dense mangroves gives you a chance to spot these fascinating creatures in their natural habitat.</p>
           <ul className="roomList">
             <li><a href="/ouractivities">
-              <img src="img/activity1.jpg" alt="Rooms" />
-              <span>Wildlife Viewing</span></a>
+              <img src="img/tiger_w_tour.png" alt="Rooms" />
+              <span>Wildlife Tour</span></a>
             </li>
             <li><a href="/ouractivities">
-              <img src="img/activity2.jpg" alt="Rooms" />
+              <img src="img/boat_activity.png" alt="Rooms" />
               <span>Boat safari</span></a>
             </li>
             <li><a href="/ouractivities">
@@ -68,7 +67,7 @@ export default function Home() {
           <p>We have exclusive ethnic cottages with modern attach bath cum toilet facilities</p>
           <ul className="roomList">
             <li><a href="/gallery">
-              <img src="img/r1.jpg" alt="Rooms" />
+              <img src="img/ca/cnew.png" alt="Rooms" />
               <span>Family  Room</span></a>
             </li>
             <li><a href="/gallery">

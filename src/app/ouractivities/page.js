@@ -10,7 +10,7 @@ export default function Ouractivities() {
                 <img src="img/activity/wildlife_viewing.jpg" alt="Wildlife Viewing" />
             </div>
             <div className="wRight">
-                <h3>Wildlife Viewing</h3>
+                <h3>Wildlife Tour</h3>
                 <p>Sundarbans is renowned for its biodiversity. Royal Bengal Tigers, spotted deer, saltwater crocodiles, and various species of birds. A guided safari through the dense mangroves gives you a chance to spot these fascinating creatures in their natural habitat.
                 </p>
             </div>
@@ -19,7 +19,7 @@ export default function Ouractivities() {
         <section className="welcome-sec">
           <div className="wrapper">
             <div className="wLeft">
-                <img src="img/activity/boat_safari.jpg" alt="Boat safari" />
+                <img src="img/boat_activity.png" alt="Boat safari" />
             </div>
             <div className="wRight">
                 <h2>Boat safari</h2>
